@@ -1,5 +1,5 @@
 # crypto-funding-rate-monitor
-A small tool that checks the funding rate of all Binance USDT futures. It automatically finds every valid symbol, gets the current funding rate, and alerts you when the number becomes extremely positive or extremely negative
+A small command line tool that checks the funding rate of all Binance USDT futures. It automatically finds every valid symbol, gets the current funding rate, and alerts you when the number becomes extremely positive or extremely negative
 
 # Background Knowledge
 Funding rate is a small fee that shows which side has too many people betting the same way with leverage. Very positive means lots of people are betting up and must pay the people betting down; very negative means lots are betting down and must pay the people betting up. When the number gets extreme, it usually means the crowd is overloaded and the market often makes a big move because those traders get liquidated. It’s a useful warning, but not something to rely on alone.<br><br>
